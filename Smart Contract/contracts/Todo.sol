@@ -8,6 +8,7 @@ contract todo{
         bool isCompleted;
     }
 
+
     mapping (uint => Task) taskAssigned;
 
     event taskAll(uint taskId, string description, bool isCompleted);
